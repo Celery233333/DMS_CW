@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+<?import javafx.scene.text.Text?>
+
+<AnchorPane id="pane" prefHeight="450.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="code.dms_coursework.controller.StartController">
+   <children>
+      <Text fx:id="start" fill="#ff2600" layoutX="103.0" layoutY="351.0" onMouseClicked="#OnStartClicked" strokeType="OUTSIDE" strokeWidth="0.0" text="Start">
+         <font>
+            <Font name="Arial Bold" size="24.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Text>
+      <Text fx:id="setting" fill="#ff2600" layoutX="259.0" layoutY="349.0" onMouseClicked="#OnSettingClicked" strokeType="OUTSIDE" strokeWidth="0.0" text="Setting">
+         <font>
+            <Font name="Arial Bold" size="24.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Text>
+      <Text fx:id="rank" fill="#ff2600" layoutX="440.0" layoutY="350.0" onMouseClicked="#OnRankClicked" strokeType="OUTSIDE" strokeWidth="0.0" text="Rank">
+         <font>
+            <Font name="Arial Bold" size="24.0" />
+         </font>
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Text>
+   </children>
+</AnchorPane>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.Cursor?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.shape.Ellipse?>
+
+<AnchorPane fx:id="panel" prefHeight="450.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <Ellipse fx:id="continuee" fill="DODGERBLUE" layoutX="218.0" layoutY="233.0" opacity="0.0" radiusX="30.0" radiusY="27.0" stroke="BLACK" strokeType="INSIDE">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Ellipse>
+      <Ellipse fx:id="restart" fill="DODGERBLUE" layoutX="306.0" layoutY="233.0" opacity="0.0" radiusX="30.0" radiusY="27.0" stroke="BLACK" strokeType="INSIDE">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Ellipse>
+      <Ellipse fx:id="menu" fill="DODGERBLUE" layoutX="402.0" layoutY="234.0" opacity="0.0" radiusX="30.0" radiusY="27.0" stroke="BLACK" strokeType="INSIDE">
+         <cursor>
+            <Cursor fx:constant="HAND" />
+         </cursor>
+      </Ellipse>
+   </children>
+</AnchorPane>
